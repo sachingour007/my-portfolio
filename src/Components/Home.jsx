@@ -12,13 +12,9 @@ const Home = () => {
       justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Front-End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid cum
-            atque esse fugit cumque voluptatibus, aliquam veritatis! Aperiam
-            veritatis porro dignissimos optio modi eligendi. Enim officia
-            dignissimos quod fuga accusamus.
           </p>
           <div>
             <Link to="Portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2

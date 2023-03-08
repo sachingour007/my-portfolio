@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkdIn <FaLinkedin size={30} />
         </>
       ),
-      href: "http://linkedin.com",
+      href: "https://www.linkedin.com/in/sachin-gour-45711913a/",
       style: "rounded-tr-md",
     },
     {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "http://github.com",
+      href: "https://github.com/sachingour007",
     },
     {
       id: 3,
