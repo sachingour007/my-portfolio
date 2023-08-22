@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import TableRowsRoundedIcon from "@mui/icons-material/TableRowsRounded";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const NavBar = [
@@ -45,7 +45,7 @@ const NavBar = () => {
             >
               <Link to={link} smooth duration={500}>
                 {link}
-                </Link>
+              </Link>
             </li>
           );
         })}
@@ -68,8 +68,13 @@ const NavBar = () => {
                 key={id}
                 className="px-4 cursor-pointer capitalize py-6 text-4xl"
               >
-                 <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>
-                {link}
+                <Link
+                  onClick={() => setNav(!nav)}
+                  to={link}
+                  smooth
+                  duration={500}
+                >
+                  {link}
                 </Link>
               </li>
             );
